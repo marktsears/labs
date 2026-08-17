@@ -246,6 +246,30 @@ def migrate_prior_key(entry):
     return key_of(entry) if "source" in entry else None
 
 
+def fetch_and_parse(source, parser, url, code, stealth, attempts=3):
+    """StubHub's event pages render non-deterministically: the same URL with
+    identical params sometimes comes back without the listings section
+    hydrated at all (a much larger page, zero `data-listing-id` anywhere) —
+    not a captcha, not an HTTP error, just an incomplete render. A single
+    fetch can't be trusted to mean "no listings"; retry until the listings
+    section actually rendered (or we run out of attempts).
+
+    Vivid Seats has shown no such flakiness across every run so far, so it
+    skips the retry-on-empty check entirely — no point paying for extra
+    fetches to guard against a failure mode that source doesn't exhibit.
+    """
+    listings = []
+    for attempt in range(1, attempts + 1):
+        html = sb_fetch(url, stealth=stealth)
+        listings = parser(html, code, url)
+        rendered = bool(listings) or source != "stubhub" or "data-listing-id" in html
+        if rendered:
+            break
+        if attempt < attempts:
+            time.sleep(2)
+    return listings
+
+
 def run():
     ap = argparse.ArgumentParser()
     ap.add_argument("--state", help="path to JSON state file for new-listing diffing")
@@ -263,8 +287,7 @@ def run():
                 errors[f"{source}:{code}"] = "no known event URL"
                 continue
             try:
-                html = sb_fetch(url, stealth=stealth[source])
-                listings = parsers[source](html, code, url)
+                listings = fetch_and_parse(source, parsers[source], url, code, stealth[source])
             except Exception as e:
                 errors[f"{source}:{code}"] = str(e)
                 continue
