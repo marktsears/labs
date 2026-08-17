@@ -1,0 +1,31 @@
+{
+  "task": "LA28 tennis ticket monitor (StubHub, SeatGeek, Vivid Seats)",
+  "sessions_tracked": ["TEN31", "TEN32", "TEN33", "TEN35", "TEN36", "TEN37", "TEN40"],
+  "last_checked": "2026-08-17",
+  "notes": "First run. StubHub and SeatGeek returned HTTP 403 (bot protection) for all fetch attempts, so no listing data could be captured for those two sources this run. Vivid Seats was reachable via its search endpoint and returned aggregate starting-price/availability figures (not itemized seller listings), used here as a baseline for future new-listing comparisons.",
+  "sources": {
+    "stubhub": {
+      "status": "blocked",
+      "detail": "All product/grouping page requests returned HTTP 403 (Akamai bot protection). robots.txt fetch succeeded, confirming the block is on content pages specifically.",
+      "listings": {}
+    },
+    "seatgeek": {
+      "status": "blocked",
+      "detail": "Search and public API endpoints returned HTTP 403.",
+      "listings": {}
+    },
+    "vividseats": {
+      "status": "ok",
+      "detail": "Data via https://www.vividseats.com/search?searchTerm=... Figures are aggregate 'starting price' / 'tickets left' for the whole event, not a single grouped listing, so the >=2-together filter is approximate.",
+      "listings": {
+        "TEN31": {"date": "2028-07-25T11:00", "category": "Men's Singles QF / Women's Singles SF", "starting_price": 6881, "tickets_left": 8},
+        "TEN32": {"date": "2028-07-25T11:00", "category": "Men's Doubles SF / Men's Singles QF / Women's Doubles QF (Court 1)", "starting_price": 2343, "tickets_left": 12},
+        "TEN33": {"date": "2028-07-25T11:00", "category": "Men's Doubles SF / Men's Singles QF / Women's Doubles QF (Court 2)", "starting_price": 2343, "tickets_left": 14},
+        "TEN35": {"date": "2028-07-25T18:30", "category": "Men's Singles QF / Women's Singles SF", "starting_price": 570, "tickets_left": 4},
+        "TEN36": {"date": "2028-07-26T11:00", "category": "Men's Singles SF / Women's Doubles SF", "starting_price": 570, "tickets_left": 22},
+        "TEN37": {"date": "2028-07-26T18:30", "category": "Men's Singles SF / Women's Doubles SF", "starting_price": 570, "tickets_left": 27},
+        "TEN40": {"date": "2028-07-28T11:00", "category": "Men's Singles Final", "starting_price": 2272, "tickets_left": 10}
+      }
+    }
+  }
+}
