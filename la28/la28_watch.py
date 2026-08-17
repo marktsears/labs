@@ -246,28 +246,31 @@ def migrate_prior_key(entry):
     return key_of(entry) if "source" in entry else None
 
 
-def fetch_and_parse(source, parser, url, code, stealth, attempts=3):
+def fetch_and_parse(source, parser, url, code, stealth, stubhub_fetches=2):
     """StubHub's event pages render non-deterministically: the same URL with
-    identical params sometimes comes back without the listings section
-    hydrated at all (a much larger page, zero `data-listing-id` anywhere) —
-    not a captcha, not an HTTP error, just an incomplete render. A single
-    fetch can't be trusted to mean "no listings"; retry until the listings
-    section actually rendered (or we run out of attempts).
+    identical params can come back with only some listing cards hydrated —
+    not zero (that would be easy to detect and retry), just an incomplete
+    subset. A single fetch can silently under-report, so for StubHub we
+    always fetch twice and take the union of listings by listing_id — a
+    listing missing from one render but present in the other is trusted as
+    real; nothing is dropped just because one pass didn't catch it.
 
     Vivid Seats has shown no such flakiness across every run so far, so it
-    skips the retry-on-empty check entirely — no point paying for extra
-    fetches to guard against a failure mode that source doesn't exhibit.
+    only fetches once — no point paying for a second fetch to guard against
+    a failure mode that source doesn't exhibit.
     """
-    listings = []
-    for attempt in range(1, attempts + 1):
+    if source != "stubhub":
         html = sb_fetch(url, stealth=stealth)
-        listings = parser(html, code, url)
-        rendered = bool(listings) or source != "stubhub" or "data-listing-id" in html
-        if rendered:
-            break
-        if attempt < attempts:
+        return parser(html, code, url)
+
+    by_id = {}
+    for attempt in range(stubhub_fetches):
+        html = sb_fetch(url, stealth=stealth)
+        for l in parser(html, code, url):
+            by_id.setdefault(l["listing_id"], l)
+        if attempt < stubhub_fetches - 1:
             time.sleep(2)
-    return listings
+    return list(by_id.values())
 
 
 def run():
