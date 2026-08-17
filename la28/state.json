@@ -1,0 +1,358 @@
+{
+  "sessions_ok": [
+    "TEN31",
+    "TEN32",
+    "TEN33",
+    "TEN35",
+    "TEN36",
+    "TEN37",
+    "TEN40"
+  ],
+  "errors": {},
+  "qualifying_count": 18,
+  "new_count": 7,
+  "new": [
+    {
+      "listing_id": "VB16777134874",
+      "session": "TEN31",
+      "section_id": "2",
+      "category": "Category B",
+      "row": "GA",
+      "price_per_ticket": 7022,
+      "qty_text": "2–4 ticket",
+      "two_plus_together": true
+    },
+    {
+      "listing_id": "VB16777134864",
+      "session": "TEN31",
+      "section_id": "1",
+      "category": "Category A",
+      "row": "GA",
+      "price_per_ticket": 8192,
+      "qty_text": "1–4 ticket",
+      "two_plus_together": true
+    },
+    {
+      "listing_id": "VB16777169311",
+      "session": "TEN35",
+      "section_id": "2",
+      "category": "Category B",
+      "row": "GA",
+      "price_per_ticket": 8356,
+      "qty_text": "2 ticket",
+      "two_plus_together": true
+    },
+    {
+      "listing_id": "VB16777169314",
+      "session": "TEN35",
+      "section_id": "1",
+      "category": "Category A",
+      "row": "GA",
+      "price_per_ticket": 9549,
+      "qty_text": "1–4 ticket",
+      "two_plus_together": true
+    },
+    {
+      "listing_id": "VB16777169363",
+      "session": "TEN36",
+      "section_id": "2",
+      "category": "Category B",
+      "row": "GA",
+      "price_per_ticket": 9549,
+      "qty_text": "1–4 ticket",
+      "two_plus_together": true
+    },
+    {
+      "listing_id": "VB16777169357",
+      "session": "TEN36",
+      "section_id": "1",
+      "category": "Category A",
+      "row": "GA",
+      "price_per_ticket": 10742,
+      "qty_text": "1–4 ticket",
+      "two_plus_together": true
+    },
+    {
+      "listing_id": "VB16777257078",
+      "session": "TEN37",
+      "section_id": "1",
+      "category": "Category A",
+      "row": "GA",
+      "price_per_ticket": 7162,
+      "qty_text": "1–4 ticket",
+      "two_plus_together": true
+    }
+  ],
+  "price_changes": [
+    {
+      "listing_id": "VB16769969197",
+      "session": "TEN35",
+      "section_id": "4",
+      "category": "Category D",
+      "row": "GA",
+      "price_per_ticket": 830,
+      "qty_text": "1–4 ticket",
+      "two_plus_together": true,
+      "previous_price": 814
+    },
+    {
+      "listing_id": "VB16769969403",
+      "session": "TEN36",
+      "section_id": "4",
+      "category": "Category D",
+      "row": "GA",
+      "price_per_ticket": 594,
+      "qty_text": "1–8 ticket",
+      "two_plus_together": true,
+      "previous_price": 582
+    },
+    {
+      "listing_id": "VB16674719060",
+      "session": "TEN36",
+      "section_id": "1",
+      "category": "Category A",
+      "row": "NA",
+      "price_per_ticket": 4730,
+      "qty_text": "2–6 ticket",
+      "two_plus_together": true,
+      "previous_price": 4636
+    },
+    {
+      "listing_id": "VB16769969334",
+      "session": "TEN37",
+      "section_id": "4",
+      "category": "Category D",
+      "row": "GA",
+      "price_per_ticket": 594,
+      "qty_text": "1–7 ticket",
+      "two_plus_together": true,
+      "previous_price": 582
+    },
+    {
+      "listing_id": "VB16769969143",
+      "session": "TEN37",
+      "section_id": "4",
+      "category": "Category D",
+      "row": "GA",
+      "price_per_ticket": 1184,
+      "qty_text": "1–12 ticket",
+      "two_plus_together": true,
+      "previous_price": 1160
+    },
+    {
+      "listing_id": "VB16670203260",
+      "session": "TEN37",
+      "section_id": "2",
+      "category": "Cat B",
+      "row": "TBD",
+      "price_per_ticket": 1950,
+      "qty_text": "1–4 ticket",
+      "two_plus_together": true,
+      "previous_price": 1912
+    },
+    {
+      "listing_id": "VB16670203319",
+      "session": "TEN37",
+      "section_id": "1",
+      "category": "Cat A",
+      "row": "999",
+      "price_per_ticket": 2437,
+      "qty_text": "1–4 ticket",
+      "two_plus_together": true,
+      "previous_price": 2390
+    },
+    {
+      "listing_id": "VB16225639274",
+      "session": "TEN40",
+      "section_id": "4",
+      "category": "Category D",
+      "row": "TBD",
+      "price_per_ticket": 2320,
+      "qty_text": "1–10 ticket",
+      "two_plus_together": true,
+      "previous_price": 2366
+    }
+  ],
+  "listings": {
+    "TEN31|VB16777134874": {
+      "listing_id": "VB16777134874",
+      "session": "TEN31",
+      "section_id": "2",
+      "category": "Category B",
+      "row": "GA",
+      "price_per_ticket": 7022,
+      "qty_text": "2–4 ticket",
+      "two_plus_together": true
+    },
+    "TEN31|VB16777134864": {
+      "listing_id": "VB16777134864",
+      "session": "TEN31",
+      "section_id": "1",
+      "category": "Category A",
+      "row": "GA",
+      "price_per_ticket": 8192,
+      "qty_text": "1–4 ticket",
+      "two_plus_together": true
+    },
+    "TEN32|VB16650318614": {
+      "listing_id": "VB16650318614",
+      "session": "TEN32",
+      "section_id": "3",
+      "category": "Category C",
+      "row": "GA",
+      "price_per_ticket": 2390,
+      "qty_text": "1–12 ticket",
+      "two_plus_together": true
+    },
+    "TEN33|VB16650318965": {
+      "listing_id": "VB16650318965",
+      "session": "TEN33",
+      "section_id": "2",
+      "category": "Category B",
+      "row": "GA",
+      "price_per_ticket": 2390,
+      "qty_text": "2 ticket",
+      "two_plus_together": true
+    },
+    "TEN33|VB16650319310": {
+      "listing_id": "VB16650319310",
+      "session": "TEN33",
+      "section_id": "2",
+      "category": "Category B",
+      "row": "GA",
+      "price_per_ticket": 2986,
+      "qty_text": "1–12 ticket",
+      "two_plus_together": true
+    },
+    "TEN35|VB16769969197": {
+      "listing_id": "VB16769969197",
+      "session": "TEN35",
+      "section_id": "4",
+      "category": "Category D",
+      "row": "GA",
+      "price_per_ticket": 830,
+      "qty_text": "1–4 ticket",
+      "two_plus_together": true
+    },
+    "TEN35|VB16777169311": {
+      "listing_id": "VB16777169311",
+      "session": "TEN35",
+      "section_id": "2",
+      "category": "Category B",
+      "row": "GA",
+      "price_per_ticket": 8356,
+      "qty_text": "2 ticket",
+      "two_plus_together": true
+    },
+    "TEN35|VB16777169314": {
+      "listing_id": "VB16777169314",
+      "session": "TEN35",
+      "section_id": "1",
+      "category": "Category A",
+      "row": "GA",
+      "price_per_ticket": 9549,
+      "qty_text": "1–4 ticket",
+      "two_plus_together": true
+    },
+    "TEN36|VB16769969403": {
+      "listing_id": "VB16769969403",
+      "session": "TEN36",
+      "section_id": "4",
+      "category": "Category D",
+      "row": "GA",
+      "price_per_ticket": 594,
+      "qty_text": "1–8 ticket",
+      "two_plus_together": true
+    },
+    "TEN36|VB16674719060": {
+      "listing_id": "VB16674719060",
+      "session": "TEN36",
+      "section_id": "1",
+      "category": "Category A",
+      "row": "NA",
+      "price_per_ticket": 4730,
+      "qty_text": "2–6 ticket",
+      "two_plus_together": true
+    },
+    "TEN36|VB16777169363": {
+      "listing_id": "VB16777169363",
+      "session": "TEN36",
+      "section_id": "2",
+      "category": "Category B",
+      "row": "GA",
+      "price_per_ticket": 9549,
+      "qty_text": "1–4 ticket",
+      "two_plus_together": true
+    },
+    "TEN36|VB16777169357": {
+      "listing_id": "VB16777169357",
+      "session": "TEN36",
+      "section_id": "1",
+      "category": "Category A",
+      "row": "GA",
+      "price_per_ticket": 10742,
+      "qty_text": "1–4 ticket",
+      "two_plus_together": true
+    },
+    "TEN37|VB16769969334": {
+      "listing_id": "VB16769969334",
+      "session": "TEN37",
+      "section_id": "4",
+      "category": "Category D",
+      "row": "GA",
+      "price_per_ticket": 594,
+      "qty_text": "1–7 ticket",
+      "two_plus_together": true
+    },
+    "TEN37|VB16769969143": {
+      "listing_id": "VB16769969143",
+      "session": "TEN37",
+      "section_id": "4",
+      "category": "Category D",
+      "row": "GA",
+      "price_per_ticket": 1184,
+      "qty_text": "1–12 ticket",
+      "two_plus_together": true
+    },
+    "TEN37|VB16670203260": {
+      "listing_id": "VB16670203260",
+      "session": "TEN37",
+      "section_id": "2",
+      "category": "Cat B",
+      "row": "TBD",
+      "price_per_ticket": 1950,
+      "qty_text": "1–4 ticket",
+      "two_plus_together": true
+    },
+    "TEN37|VB16670203319": {
+      "listing_id": "VB16670203319",
+      "session": "TEN37",
+      "section_id": "1",
+      "category": "Cat A",
+      "row": "999",
+      "price_per_ticket": 2437,
+      "qty_text": "1–4 ticket",
+      "two_plus_together": true
+    },
+    "TEN37|VB16777257078": {
+      "listing_id": "VB16777257078",
+      "session": "TEN37",
+      "section_id": "1",
+      "category": "Category A",
+      "row": "GA",
+      "price_per_ticket": 7162,
+      "qty_text": "1–4 ticket",
+      "two_plus_together": true
+    },
+    "TEN40|VB16225639274": {
+      "listing_id": "VB16225639274",
+      "session": "TEN40",
+      "section_id": "4",
+      "category": "Category D",
+      "row": "TBD",
+      "price_per_ticket": 2320,
+      "qty_text": "1–10 ticket",
+      "two_plus_together": true
+    }
+  }
+}
