@@ -177,6 +177,9 @@ def run():
         try:
             html = sb_fetch(rec["url"])
             listings = parse_listings(html, code)
+            for l in listings:
+                l["source"] = "vividseats"
+                l["url"] = rec["url"]
         except Exception as e:
             errors[code] = str(e)
             continue

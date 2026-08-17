@@ -54,6 +54,18 @@ Prints a JSON payload to stdout:
 - `new` — listings not seen in the previous `state.json` (by Vivid Seats listing ID,
   **not price** — see below). This is what should trigger a Slack alert.
 - `price_changes` — same listing, price moved since last run. Informational only.
+- Each listing carries `source` (currently always `"vividseats"`) and `url` (the
+  session's event page — Vivid Seats doesn't expose a stable per-listing deep link,
+  only a per-event one) so Slack alerts and Notion can link out to the actual page.
+
+### Cross-site dedup (not yet needed, but designed for)
+
+Right now there's only one working source (Vivid Seats), so there's nothing to
+dedupe. If StubHub or SeatGeek ever become scrapable, the same physical ticket
+could show up as separate listings on each site. Before wiring in a second source,
+add a dedup pass keyed on `(session, category, row, price within ~2%)` — loose
+enough to catch the same seat listed twice, tight enough not to collapse distinct
+listings. Do not key it on `listing_id` — that's site-specific by construction.
 
 ### Important: the diff key is the listing ID, not price
 
