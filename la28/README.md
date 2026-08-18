@@ -66,18 +66,75 @@ Prints a JSON payload to stdout:
   "qualifying_count": 31,
   "new_count": 0,
   "new": [...],
+  "notable_new_count": 0,
+  "notable_new": [...],
   "price_changes": [...],
-  "listings": {...}
+  "listings": {...},
+  "current_best": [...],
+  "category_stats": {...},
+  "session_activity": {...}
 }
 ```
 
 - `new` — listings not seen in the previous `state.json` (by
-  `source|session|listing_id`, **not price** — see below). This is what should
-  trigger a Slack alert.
+  `source|session|listing_id`, **not price** — see below). Kept for the record
+  and for computing `notable_new`, but on its own this is *not* what should
+  trigger a Slack alert — see below.
+- `notable_new` — the subset of `new` worth actually alerting on (see "Worth
+  showing" below). This is what should trigger a Slack alert.
 - `price_changes` — same listing, price moved since last run. Informational only.
+- `current_best` — the cheapest live listing per (session, normalized
+  category), regardless of whether it's new. This is the "if you were buying
+  today" board — the input to the daily digest (see below).
+- `category_stats` — running history per `session|category` key: lowest price
+  ever recorded (`best_price`) and how many times a listing has been seen
+  there (`times_seen`). Persisted across runs so tomorrow's run can tell a
+  genuine new low from just another listing.
+- `session_activity` — running history per session: `runs_total` (times we
+  successfully checked it) and `runs_with_listings` (times it had any
+  qualifying listing at all). A session with `runs_with_listings: 0` has
+  never had inventory — its first-ever listing is always notable.
 - Each listing carries `source` (`"vividseats"` or `"stubhub"`) and `url` (the
   session's event page — neither site exposes a stable per-listing deep link,
   only a per-event one).
+
+### Worth showing: rarity + value filter
+
+Not every new listing deserves a Slack ping. A session that's had essentially
+no inventory ever (e.g. TEN40) makes its first listing newsworthy no matter
+the price. A session that's regularly flooded with $4,000+ listings (e.g.
+TEN32) makes another $4,000+ listing unremarkable — it's "new" by listing ID
+but not actionable. `classify_notable()` decides which is which, comparing
+each new listing against `category_stats`/`session_activity` **as they stood
+before this run** (never against itself):
+
+- `rare_session` — the session has never had a qualifying listing in any
+  tracked run. Always notable.
+- `new_category` — first time this (session, category) pair has been seen.
+  No price history to compare against, so it's surfaced.
+- `good_value` — priced at or within 5% of the lowest price ever recorded for
+  that (session, category) — a genuine new low or close to it.
+- Anything else — a new listing ID, but priced well above the established
+  floor for that session/category. Recorded in `listings`/`category_stats`
+  for future comparisons, but not alerted.
+
+`update_stats()` then rolls this run's results into `category_stats` and
+`session_activity` for next time. Because there's no run history yet right
+after this feature ships, the first run or two will classify almost
+everything as notable (no established "normal" to compare against) — it
+quiets down as `state.json` accumulates history.
+
+### Digest mode (no scraping, no cost)
+
+```bash
+python3 la28_watch.py --state state.json --digest-only
+```
+
+Skips ScrapingBee entirely and just prints `current_best` /
+`session_activity` from the existing `state.json` — the board of what's
+currently the best available per session/category. Meant to be run once a
+day (e.g. a morning digest) independent of the hourly alert run, since it
+needs no fresh fetch — the last hourly run already populated `current_best`.
 
 ### Cross-site dedup
 

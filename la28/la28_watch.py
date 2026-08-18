@@ -229,6 +229,78 @@ def dedup(listings):
     return out
 
 
+RARE_SESSION_MAX_RUNS = 0
+VALUE_MARGIN = 0.05
+
+
+def category_key(session, category):
+    return f"{session}|{normalize_category(category)}"
+
+
+def classify_notable(l, prior_category_stats, prior_session_activity):
+    """Decide whether a *new* listing is worth an immediate alert, vs. just
+    another new-but-unremarkable listing (e.g. a $4k Cat A seat in a session
+    that already has plenty of cheaper inventory). Compares against stats
+    from BEFORE this run, so a listing can't be judged against itself.
+
+    - 'rare_session': the session has never had a qualifying listing before
+      (or hasn't in any run we've tracked) — any listing there is news
+      regardless of price.
+    - 'new_category': first time we've seen this (session, category) pair —
+      no price history to compare against, so surface it.
+    - 'good_value': at or within VALUE_MARGIN of the lowest price ever
+      recorded for this (session, category).
+    - None: a new listing, but priced well above the established floor for
+      that session/category — recorded, not alerted.
+    """
+    act = prior_session_activity.get(l["session"])
+    if act is None or act.get("runs_with_listings", 0) <= RARE_SESSION_MAX_RUNS:
+        return "rare_session"
+    st = prior_category_stats.get(category_key(l["session"], l["category"]))
+    if st is None:
+        return "new_category"
+    if l["price_per_ticket"] <= st["best_price"] * (1 + VALUE_MARGIN):
+        return "good_value"
+    return None
+
+
+def update_stats(current_list, prior_category_stats, prior_session_activity, sessions_ok):
+    """Roll this run's results into the running per-session and per-category
+    history used by classify_notable() on the *next* run."""
+    category_stats = {k: dict(v) for k, v in prior_category_stats.items()}
+    session_activity = {k: dict(v) for k, v in prior_session_activity.items()}
+
+    checked_sessions = set()
+    for codes in sessions_ok.values():
+        checked_sessions.update(codes)
+    sessions_with_listing = {l["session"] for l in current_list}
+
+    for code in checked_sessions:
+        act = session_activity.setdefault(code, {"runs_total": 0, "runs_with_listings": 0})
+        act["runs_total"] += 1
+        if code in sessions_with_listing:
+            act["runs_with_listings"] += 1
+
+    for l in current_list:
+        key = category_key(l["session"], l["category"])
+        st = category_stats.setdefault(key, {"best_price": l["price_per_ticket"], "times_seen": 0})
+        st["best_price"] = min(st["best_price"], l["price_per_ticket"])
+        st["times_seen"] += 1
+
+    return category_stats, session_activity
+
+
+def compute_current_best(current_list):
+    """The cheapest live listing per (session, category) — the 'if you were
+    buying today' board, independent of whether anything is new."""
+    best = {}
+    for l in current_list:
+        key = (l["session"], normalize_category(l["category"]))
+        if key not in best or l["price_per_ticket"] < best[key]["price_per_ticket"]:
+            best[key] = l
+    return [best[k] for k in sorted(best)]
+
+
 def key_of(l):
     """Identity for diffing: source + session + the site's own listing id.
 
@@ -270,7 +342,24 @@ def fetch_and_parse(source, parser, url, code, stealth, fetches=2):
 def run():
     ap = argparse.ArgumentParser()
     ap.add_argument("--state", help="path to JSON state file for new-listing diffing")
+    ap.add_argument(
+        "--digest-only",
+        action="store_true",
+        help="Skip scraping; print the current-best board from an existing --state file",
+    )
     args = ap.parse_args()
+
+    if args.digest_only:
+        if not args.state or not os.path.exists(args.state):
+            print(json.dumps({"error": "no state file to digest"}))
+            return 1
+        prior = json.load(open(args.state))
+        print(json.dumps({
+            "current_best": prior.get("current_best", []),
+            "session_activity": prior.get("session_activity", {}),
+            "qualifying_count": prior.get("qualifying_count", 0),
+        }, indent=2))
+        return 0
 
     all_listings, errors = [], {}
     parsers = {"vividseats": parse_vividseats, "stubhub": parse_stubhub}
@@ -296,8 +385,12 @@ def run():
     current = {key_of(l): l for l in current_list}
 
     new_keys, price_moves = list(current), []
+    prior_category_stats, prior_session_activity = {}, {}
     if args.state and os.path.exists(args.state):
-        prior_raw = json.load(open(args.state)).get("listings", {})
+        prior_state = json.load(open(args.state))
+        prior_raw = prior_state.get("listings", {})
+        prior_category_stats = prior_state.get("category_stats", {})
+        prior_session_activity = prior_state.get("session_activity", {})
         prior = {}
         for entry in prior_raw.values():
             k = migrate_prior_key(entry)
@@ -309,14 +402,31 @@ def run():
             if was is not None and was != l["price_per_ticket"]:
                 price_moves.append({**l, "previous_price": was})
 
+    notable_new = []
+    for k in new_keys:
+        l = current[k]
+        reason = classify_notable(l, prior_category_stats, prior_session_activity)
+        if reason:
+            notable_new.append({**l, "notable_reason": reason})
+
+    category_stats, session_activity = update_stats(
+        current_list, prior_category_stats, prior_session_activity, sessions_ok
+    )
+    current_best = compute_current_best(current_list)
+
     payload = {
         "sessions_ok": sessions_ok,
         "errors": errors,
         "qualifying_count": len(current),
         "new_count": len(new_keys),
         "new": [current[k] for k in new_keys],
+        "notable_new_count": len(notable_new),
+        "notable_new": notable_new,
         "price_changes": price_moves,
         "listings": current,
+        "current_best": current_best,
+        "category_stats": category_stats,
+        "session_activity": session_activity,
     }
     print(json.dumps(payload, indent=2))
 
