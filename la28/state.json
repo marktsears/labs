@@ -16,7 +16,7 @@
     "stubhub:TEN33": "fetch failed for https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-25-2028/event/160846919/: http 401: b'{\"message\":\"Monthly API calls limit reached: 250000\"}\\n'",
     "stubhub:TEN35": "fetch failed for https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-25-2028/event/160846523/: http 401: b'{\"message\":\"Monthly API calls limit reached: 250000\"}\\n'",
     "stubhub:TEN36": "fetch failed for https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-26-2028/event/160846091/: http 401: b'{\"message\":\"Monthly API calls limit reached: 250000\"}\\n'",
-    "stubhub:TEN37": "fetch failed for https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-26-2028/event/160846520/: http 401: b'{\"message\":\"Monthly API calls limit reached: 250000\"}\\n'",
+    "stubhub:TEN37": "fetch failed for https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-26-2028/event/160846520/: <urlopen error [Errno 104] Connection reset by peer>",
     "stubhub:TEN40": "fetch failed for https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-28-2028/event/160846096/: http 401: b'{\"message\":\"Monthly API calls limit reached: 250000\"}\\n'"
   },
   "qualifying_count": 0,
@@ -27,88 +27,7 @@
   "price_changes": [],
   "listings": {},
   "current_best": [],
-  "category_stats": {
-    "TEN31|B": {
-      "best_price": 3833,
-      "times_seen": 234
-    },
-    "TEN31|A": {
-      "best_price": 4599,
-      "times_seen": 234
-    },
-    "TEN32|C": {
-      "best_price": 1483,
-      "times_seen": 257
-    },
-    "TEN33|B": {
-      "best_price": 2208,
-      "times_seen": 470
-    },
-    "TEN35|D": {
-      "best_price": 814,
-      "times_seen": 115
-    },
-    "TEN35|B": {
-      "best_price": 4142,
-      "times_seen": 298
-    },
-    "TEN35|A": {
-      "best_price": 1758,
-      "times_seen": 312
-    },
-    "TEN36|D": {
-      "best_price": 571,
-      "times_seen": 232
-    },
-    "TEN36|A": {
-      "best_price": 2568,
-      "times_seen": 359
-    },
-    "TEN36|B": {
-      "best_price": 4419,
-      "times_seen": 244
-    },
-    "TEN37|D": {
-      "best_price": 572,
-      "times_seen": 434
-    },
-    "TEN37|B": {
-      "best_price": 1656,
-      "times_seen": 255
-    },
-    "TEN37|A": {
-      "best_price": 2208,
-      "times_seen": 247
-    },
-    "TEN40|D": {
-      "best_price": 3710,
-      "times_seen": 213
-    },
-    "TEN37|C": {
-      "best_price": 1607,
-      "times_seen": 45
-    },
-    "TEN40|C": {
-      "best_price": 2303,
-      "times_seen": 56
-    },
-    "TEN40|A": {
-      "best_price": 21000,
-      "times_seen": 18
-    },
-    "TEN40|B": {
-      "best_price": 3109,
-      "times_seen": 56
-    },
-    "TEN32|A": {
-      "best_price": 3968,
-      "times_seen": 140
-    },
-    "TEN36|EOGRY B": {
-      "best_price": 5794,
-      "times_seen": 99
-    }
-  },
+  "category_stats": {},
   "session_activity": {
     "TEN35": {
       "runs_total": 116,
