@@ -16,7 +16,7 @@
     "stubhub:TEN33": "fetch failed for https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-25-2028/event/160846919/: http 401: b'{\"message\":\"Monthly API calls limit reached: 250000\"}\\n'",
     "stubhub:TEN35": "fetch failed for https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-25-2028/event/160846523/: http 401: b'{\"message\":\"Monthly API calls limit reached: 250000\"}\\n'",
     "stubhub:TEN36": "fetch failed for https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-26-2028/event/160846091/: http 401: b'{\"message\":\"Monthly API calls limit reached: 250000\"}\\n'",
-    "stubhub:TEN37": "fetch failed for https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-26-2028/event/160846520/: <urlopen error [Errno 104] Connection reset by peer>",
+    "stubhub:TEN37": "fetch failed for https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-26-2028/event/160846520/: http 401: b'{\"message\":\"Monthly API calls limit reached: 250000\"}\\n'",
     "stubhub:TEN40": "fetch failed for https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-28-2028/event/160846096/: http 401: b'{\"message\":\"Monthly API calls limit reached: 250000\"}\\n'"
   },
   "qualifying_count": 0,
