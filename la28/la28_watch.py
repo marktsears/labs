@@ -430,7 +430,9 @@ def run():
     }
     print(json.dumps(payload, indent=2))
 
-    if args.state:
+    # A run where no source fetched anything has no listings to record, and
+    # writing it would erase the price/rarity history the diff depends on.
+    if args.state and any(sessions_ok.values()):
         json.dump(payload, open(args.state, "w"), indent=2)
     return 0
 
