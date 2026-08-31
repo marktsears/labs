@@ -28,17 +28,45 @@
   "price_changes": [
     {
       "source": "vividseats",
-      "listing_id": "VB16948238942",
-      "session": "TEN35",
-      "section_id": "4",
-      "category": "Category D",
-      "row": "TBD",
-      "price_per_ticket": 1511,
-      "qty_text": "1–4 ticket",
+      "listing_id": "VB16650318614",
+      "session": "TEN32",
+      "section_id": "3",
+      "category": "Category C",
+      "row": "GA",
+      "price_per_ticket": 1955,
+      "qty_text": "1–12 ticket",
       "two_plus_together": true,
-      "url": "https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---center-court-7-25-2028--sports-other-sports/production/6894472",
+      "url": "https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---court-1-7-25-2028--sports-other-sports/production/6894461",
       "cross_listed_on": [],
-      "previous_price": 1510
+      "previous_price": 1917
+    },
+    {
+      "source": "vividseats",
+      "listing_id": "VB16672009897",
+      "session": "TEN32",
+      "section_id": "3",
+      "category": "Category C",
+      "row": "TBA",
+      "price_per_ticket": 1981,
+      "qty_text": "2–4 ticket",
+      "two_plus_together": true,
+      "url": "https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---court-1-7-25-2028--sports-other-sports/production/6894461",
+      "cross_listed_on": [],
+      "previous_price": 1942
+    },
+    {
+      "source": "vividseats",
+      "listing_id": "VB16688100181",
+      "session": "TEN32",
+      "section_id": "1",
+      "category": "Category A",
+      "row": "GA",
+      "price_per_ticket": 4276,
+      "qty_text": "1–2 ticket",
+      "two_plus_together": true,
+      "url": "https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---court-1-7-25-2028--sports-other-sports/production/6894461",
+      "cross_listed_on": [],
+      "previous_price": 4193
     }
   ],
   "listings": {
@@ -101,7 +129,7 @@
       "section_id": "3",
       "category": "Category C",
       "row": "GA",
-      "price_per_ticket": 1917,
+      "price_per_ticket": 1955,
       "qty_text": "1–12 ticket",
       "two_plus_together": true,
       "url": "https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---court-1-7-25-2028--sports-other-sports/production/6894461",
@@ -114,7 +142,7 @@
       "section_id": "3",
       "category": "Category C",
       "row": "TBA",
-      "price_per_ticket": 1942,
+      "price_per_ticket": 1981,
       "qty_text": "2–4 ticket",
       "two_plus_together": true,
       "url": "https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---court-1-7-25-2028--sports-other-sports/production/6894461",
@@ -127,7 +155,7 @@
       "section_id": "1",
       "category": "Category A",
       "row": "GA",
-      "price_per_ticket": 4193,
+      "price_per_ticket": 4276,
       "qty_text": "1–2 ticket",
       "two_plus_together": true,
       "url": "https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---court-1-7-25-2028--sports-other-sports/production/6894461",
@@ -675,7 +703,7 @@
       "section_id": "1",
       "category": "Category A",
       "row": "GA",
-      "price_per_ticket": 4193,
+      "price_per_ticket": 4276,
       "qty_text": "1–2 ticket",
       "two_plus_together": true,
       "url": "https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---court-1-7-25-2028--sports-other-sports/production/6894461",
@@ -688,7 +716,7 @@
       "section_id": "3",
       "category": "Category C",
       "row": "GA",
-      "price_per_ticket": 1917,
+      "price_per_ticket": 1955,
       "qty_text": "1–12 ticket",
       "two_plus_together": true,
       "url": "https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---court-1-7-25-2028--sports-other-sports/production/6894461",
@@ -867,59 +895,59 @@
   "category_stats": {
     "TEN31|B": {
       "best_price": 3833,
-      "times_seen": 276
+      "times_seen": 278
     },
     "TEN31|A": {
       "best_price": 4599,
-      "times_seen": 276
+      "times_seen": 278
     },
     "TEN32|C": {
       "best_price": 1483,
-      "times_seen": 299
+      "times_seen": 301
     },
     "TEN33|B": {
       "best_price": 2208,
-      "times_seen": 554
+      "times_seen": 558
     },
     "TEN35|D": {
       "best_price": 814,
-      "times_seen": 199
+      "times_seen": 203
     },
     "TEN35|B": {
       "best_price": 1687,
-      "times_seen": 403
+      "times_seen": 408
     },
     "TEN35|A": {
       "best_price": 1758,
-      "times_seen": 417
+      "times_seen": 422
     },
     "TEN36|D": {
       "best_price": 571,
-      "times_seen": 274
+      "times_seen": 276
     },
     "TEN36|A": {
       "best_price": 2568,
-      "times_seen": 422
+      "times_seen": 425
     },
     "TEN36|B": {
       "best_price": 4419,
-      "times_seen": 286
+      "times_seen": 288
     },
     "TEN37|D": {
       "best_price": 572,
-      "times_seen": 539
+      "times_seen": 544
     },
     "TEN37|B": {
       "best_price": 1656,
-      "times_seen": 297
+      "times_seen": 299
     },
     "TEN37|A": {
       "best_price": 2208,
-      "times_seen": 289
+      "times_seen": 291
     },
     "TEN40|D": {
       "best_price": 3710,
-      "times_seen": 255
+      "times_seen": 257
     },
     "TEN37|C": {
       "best_price": 1607,
@@ -939,45 +967,45 @@
     },
     "TEN32|A": {
       "best_price": 3968,
-      "times_seen": 161
+      "times_seen": 162
     },
     "TEN36|EOGRY B": {
       "best_price": 5794,
-      "times_seen": 120
+      "times_seen": 121
     },
     "TEN35|C": {
       "best_price": 3676,
-      "times_seen": 42
+      "times_seen": 44
     }
   },
   "session_activity": {
     "TEN35": {
-      "runs_total": 137,
-      "runs_with_listings": 137
+      "runs_total": 138,
+      "runs_with_listings": 138
     },
     "TEN32": {
-      "runs_total": 137,
-      "runs_with_listings": 137
+      "runs_total": 138,
+      "runs_with_listings": 138
     },
     "TEN31": {
-      "runs_total": 137,
-      "runs_with_listings": 137
+      "runs_total": 138,
+      "runs_with_listings": 138
     },
     "TEN33": {
-      "runs_total": 137,
-      "runs_with_listings": 137
+      "runs_total": 138,
+      "runs_with_listings": 138
     },
     "TEN37": {
-      "runs_total": 137,
-      "runs_with_listings": 137
+      "runs_total": 138,
+      "runs_with_listings": 138
     },
     "TEN40": {
-      "runs_total": 137,
-      "runs_with_listings": 137
+      "runs_total": 138,
+      "runs_with_listings": 138
     },
     "TEN36": {
-      "runs_total": 137,
-      "runs_with_listings": 137
+      "runs_total": 138,
+      "runs_with_listings": 138
     }
   }
 }
