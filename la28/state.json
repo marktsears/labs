@@ -28,59 +28,129 @@
   "price_changes": [
     {
       "source": "vividseats",
-      "listing_id": "VB16650318965",
-      "session": "TEN33",
-      "section_id": "2",
-      "category": "Category B",
-      "row": "GA",
-      "price_per_ticket": 2396,
-      "qty_text": "2 ticket",
+      "listing_id": "VB16948238942",
+      "session": "TEN35",
+      "section_id": "4",
+      "category": "Category D",
+      "row": "TBD",
+      "price_per_ticket": 1510,
+      "qty_text": "1–4 ticket",
       "two_plus_together": true,
-      "url": "https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---court-2-7-25-2028--sports-other-sports/production/6894467",
+      "url": "https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---center-court-7-25-2028--sports-other-sports/production/6894472",
       "cross_listed_on": [],
-      "previous_price": 2442
+      "previous_price": 1509
     },
     {
       "source": "vividseats",
-      "listing_id": "VB16650319310",
-      "session": "TEN33",
-      "section_id": "2",
-      "category": "Category B",
+      "listing_id": "VB16801653372",
+      "session": "TEN36",
+      "section_id": "4",
+      "category": "Category D",
       "row": "GA",
-      "price_per_ticket": 2994,
+      "price_per_ticket": 595,
+      "qty_text": "1–2 ticket",
+      "two_plus_together": true,
+      "url": "https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---center-court-7-26-2028--sports-other-sports/production/6894474",
+      "cross_listed_on": [],
+      "previous_price": 584
+    },
+    {
+      "source": "vividseats",
+      "listing_id": "VB16874946294",
+      "session": "TEN36",
+      "section_id": "4",
+      "category": "Category D",
+      "row": "GA",
+      "price_per_ticket": 773,
+      "qty_text": "1–8 ticket",
+      "two_plus_together": true,
+      "url": "https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---center-court-7-26-2028--sports-other-sports/production/6894474",
+      "cross_listed_on": [],
+      "previous_price": 758
+    },
+    {
+      "source": "vividseats",
+      "listing_id": "VB16674719060",
+      "session": "TEN36",
+      "section_id": "1",
+      "category": "Category A",
+      "row": "NA",
+      "price_per_ticket": 4835,
+      "qty_text": "2–6 ticket",
+      "two_plus_together": true,
+      "url": "https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---center-court-7-26-2028--sports-other-sports/production/6894474",
+      "cross_listed_on": [],
+      "previous_price": 4741
+    },
+    {
+      "source": "vividseats",
+      "listing_id": "VB16688090755",
+      "session": "TEN36",
+      "section_id": "1",
+      "category": "Category A",
+      "row": "GA",
+      "price_per_ticket": 6107,
       "qty_text": "1–12 ticket",
       "two_plus_together": true,
-      "url": "https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---court-2-7-25-2028--sports-other-sports/production/6894467",
+      "url": "https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---center-court-7-26-2028--sports-other-sports/production/6894474",
       "cross_listed_on": [],
-      "previous_price": 3052
+      "previous_price": 5988
     },
     {
       "source": "vividseats",
-      "listing_id": "VB16770044707",
-      "session": "TEN33",
+      "listing_id": "VB16777169357",
+      "session": "TEN36",
+      "section_id": "1",
+      "category": "Category A",
+      "row": "GA",
+      "price_per_ticket": 10769,
+      "qty_text": "1–4 ticket",
+      "two_plus_together": true,
+      "url": "https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---center-court-7-26-2028--sports-other-sports/production/6894474",
+      "cross_listed_on": [],
+      "previous_price": 10558
+    },
+    {
+      "source": "vividseats",
+      "listing_id": "VB16688090936",
+      "session": "TEN36",
       "section_id": "2",
       "category": "Category B",
+      "row": "GA",
+      "price_per_ticket": 4886,
+      "qty_text": "1–12 ticket",
+      "two_plus_together": true,
+      "url": "https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---center-court-7-26-2028--sports-other-sports/production/6894474",
+      "cross_listed_on": [],
+      "previous_price": 4791
+    },
+    {
+      "source": "vividseats",
+      "listing_id": "VB16777169363",
+      "session": "TEN36",
+      "section_id": "2",
+      "category": "Category B",
+      "row": "GA",
+      "price_per_ticket": 9572,
+      "qty_text": "1–4 ticket",
+      "two_plus_together": true,
+      "url": "https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---center-court-7-26-2028--sports-other-sports/production/6894474",
+      "cross_listed_on": [],
+      "previous_price": 9385
+    },
+    {
+      "source": "vividseats",
+      "listing_id": "VB16770046097",
+      "session": "TEN36",
+      "section_id": "2",
+      "category": "Cateogry B",
       "row": "TBD",
-      "price_per_ticket": 3487,
+      "price_per_ticket": 5926,
       "qty_text": "2–4 ticket",
       "two_plus_together": true,
-      "url": "https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---court-2-7-25-2028--sports-other-sports/production/6894467",
+      "url": "https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---center-court-7-26-2028--sports-other-sports/production/6894474",
       "cross_listed_on": [],
-      "previous_price": 3557
-    },
-    {
-      "source": "vividseats",
-      "listing_id": "VB16688090754",
-      "session": "TEN33",
-      "section_id": "2",
-      "category": "Category B",
-      "row": "GA",
-      "price_per_ticket": 3594,
-      "qty_text": "1–12 ticket",
-      "two_plus_together": true,
-      "url": "https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---court-2-7-25-2028--sports-other-sports/production/6894467",
-      "cross_listed_on": [],
-      "previous_price": 3665
+      "previous_price": 5809
     }
   ],
   "listings": {
@@ -247,7 +317,7 @@
       "section_id": "4",
       "category": "Category D",
       "row": "TBD",
-      "price_per_ticket": 1509,
+      "price_per_ticket": 1510,
       "qty_text": "1–4 ticket",
       "two_plus_together": true,
       "url": "https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---center-court-7-25-2028--sports-other-sports/production/6894472",
@@ -442,7 +512,7 @@
       "section_id": "4",
       "category": "Category D",
       "row": "GA",
-      "price_per_ticket": 584,
+      "price_per_ticket": 595,
       "qty_text": "1–2 ticket",
       "two_plus_together": true,
       "url": "https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---center-court-7-26-2028--sports-other-sports/production/6894474",
@@ -455,7 +525,7 @@
       "section_id": "4",
       "category": "Category D",
       "row": "GA",
-      "price_per_ticket": 758,
+      "price_per_ticket": 773,
       "qty_text": "1–8 ticket",
       "two_plus_together": true,
       "url": "https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---center-court-7-26-2028--sports-other-sports/production/6894474",
@@ -468,7 +538,7 @@
       "section_id": "1",
       "category": "Category A",
       "row": "NA",
-      "price_per_ticket": 4741,
+      "price_per_ticket": 4835,
       "qty_text": "2–6 ticket",
       "two_plus_together": true,
       "url": "https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---center-court-7-26-2028--sports-other-sports/production/6894474",
@@ -481,7 +551,7 @@
       "section_id": "1",
       "category": "Category A",
       "row": "GA",
-      "price_per_ticket": 5988,
+      "price_per_ticket": 6107,
       "qty_text": "1–12 ticket",
       "two_plus_together": true,
       "url": "https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---center-court-7-26-2028--sports-other-sports/production/6894474",
@@ -494,7 +564,7 @@
       "section_id": "1",
       "category": "Category A",
       "row": "GA",
-      "price_per_ticket": 10558,
+      "price_per_ticket": 10769,
       "qty_text": "1–4 ticket",
       "two_plus_together": true,
       "url": "https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---center-court-7-26-2028--sports-other-sports/production/6894474",
@@ -507,7 +577,7 @@
       "section_id": "2",
       "category": "Category B",
       "row": "GA",
-      "price_per_ticket": 4791,
+      "price_per_ticket": 4886,
       "qty_text": "1–12 ticket",
       "two_plus_together": true,
       "url": "https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---center-court-7-26-2028--sports-other-sports/production/6894474",
@@ -520,7 +590,7 @@
       "section_id": "2",
       "category": "Category B",
       "row": "GA",
-      "price_per_ticket": 9385,
+      "price_per_ticket": 9572,
       "qty_text": "1–4 ticket",
       "two_plus_together": true,
       "url": "https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---center-court-7-26-2028--sports-other-sports/production/6894474",
@@ -533,7 +603,7 @@
       "section_id": "2",
       "category": "Cateogry B",
       "row": "TBD",
-      "price_per_ticket": 5809,
+      "price_per_ticket": 5926,
       "qty_text": "2–4 ticket",
       "two_plus_together": true,
       "url": "https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---center-court-7-26-2028--sports-other-sports/production/6894474",
@@ -808,7 +878,7 @@
       "section_id": "1",
       "category": "Category A",
       "row": "NA",
-      "price_per_ticket": 4741,
+      "price_per_ticket": 4835,
       "qty_text": "2–6 ticket",
       "two_plus_together": true,
       "url": "https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---center-court-7-26-2028--sports-other-sports/production/6894474",
@@ -821,7 +891,7 @@
       "section_id": "2",
       "category": "Category B",
       "row": "GA",
-      "price_per_ticket": 4791,
+      "price_per_ticket": 4886,
       "qty_text": "1–12 ticket",
       "two_plus_together": true,
       "url": "https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---center-court-7-26-2028--sports-other-sports/production/6894474",
@@ -834,7 +904,7 @@
       "section_id": "4",
       "category": "Category D",
       "row": "GA",
-      "price_per_ticket": 584,
+      "price_per_ticket": 595,
       "qty_text": "1–2 ticket",
       "two_plus_together": true,
       "url": "https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---center-court-7-26-2028--sports-other-sports/production/6894474",
@@ -847,7 +917,7 @@
       "section_id": "2",
       "category": "Cateogry B",
       "row": "TBD",
-      "price_per_ticket": 5809,
+      "price_per_ticket": 5926,
       "qty_text": "2–4 ticket",
       "two_plus_together": true,
       "url": "https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---center-court-7-26-2028--sports-other-sports/production/6894474",
@@ -909,59 +979,59 @@
   "category_stats": {
     "TEN31|B": {
       "best_price": 3833,
-      "times_seen": 346
+      "times_seen": 348
     },
     "TEN31|A": {
       "best_price": 4599,
-      "times_seen": 346
+      "times_seen": 348
     },
     "TEN32|C": {
       "best_price": 1483,
-      "times_seen": 369
+      "times_seen": 371
     },
     "TEN33|B": {
       "best_price": 2208,
-      "times_seen": 694
+      "times_seen": 698
     },
     "TEN35|D": {
       "best_price": 814,
-      "times_seen": 335
+      "times_seen": 339
     },
     "TEN35|B": {
       "best_price": 1687,
-      "times_seen": 573
+      "times_seen": 578
     },
     "TEN35|A": {
       "best_price": 1758,
-      "times_seen": 587
+      "times_seen": 592
     },
     "TEN36|D": {
       "best_price": 571,
-      "times_seen": 344
+      "times_seen": 346
     },
     "TEN36|A": {
       "best_price": 2568,
-      "times_seen": 527
+      "times_seen": 530
     },
     "TEN36|B": {
       "best_price": 4419,
-      "times_seen": 356
+      "times_seen": 358
     },
     "TEN37|D": {
       "best_price": 572,
-      "times_seen": 714
+      "times_seen": 719
     },
     "TEN37|B": {
       "best_price": 1656,
-      "times_seen": 367
+      "times_seen": 369
     },
     "TEN37|A": {
       "best_price": 2208,
-      "times_seen": 359
+      "times_seen": 361
     },
     "TEN40|D": {
       "best_price": 3710,
-      "times_seen": 323
+      "times_seen": 325
     },
     "TEN37|C": {
       "best_price": 1607,
@@ -981,45 +1051,45 @@
     },
     "TEN32|A": {
       "best_price": 3968,
-      "times_seen": 196
+      "times_seen": 197
     },
     "TEN36|EOGRY B": {
       "best_price": 5794,
-      "times_seen": 155
+      "times_seen": 156
     },
     "TEN35|C": {
       "best_price": 3676,
-      "times_seen": 110
+      "times_seen": 112
     }
   },
   "session_activity": {
     "TEN35": {
-      "runs_total": 172,
-      "runs_with_listings": 171
+      "runs_total": 173,
+      "runs_with_listings": 172
     },
     "TEN32": {
-      "runs_total": 172,
-      "runs_with_listings": 172
+      "runs_total": 173,
+      "runs_with_listings": 173
     },
     "TEN31": {
-      "runs_total": 172,
-      "runs_with_listings": 172
+      "runs_total": 173,
+      "runs_with_listings": 173
     },
     "TEN33": {
-      "runs_total": 172,
-      "runs_with_listings": 172
+      "runs_total": 173,
+      "runs_with_listings": 173
     },
     "TEN37": {
-      "runs_total": 172,
-      "runs_with_listings": 172
+      "runs_total": 173,
+      "runs_with_listings": 173
     },
     "TEN40": {
-      "runs_total": 172,
-      "runs_with_listings": 171
+      "runs_total": 173,
+      "runs_with_listings": 172
     },
     "TEN36": {
-      "runs_total": 172,
-      "runs_with_listings": 172
+      "runs_total": 173,
+      "runs_with_listings": 173
     }
   }
 }
