@@ -1,26 +1,25 @@
 {
   "sessions_ok": {
-    "vividseats": [
-      "TEN31",
-      "TEN32",
-      "TEN33",
-      "TEN35",
-      "TEN36"
-    ],
+    "vividseats": [],
     "stubhub": []
   },
   "errors": {
+    "vividseats:TEN31": "fetch failed for https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---center-court-7-25-2028--sports-other-sports/production/6894442: http 401: b'{\"message\":\"Monthly API calls limit reached: 250000\"}\\n'",
+    "vividseats:TEN32": "fetch failed for https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---court-1-7-25-2028--sports-other-sports/production/6894461: http 401: b'{\"message\":\"Monthly API calls limit reached: 250000\"}\\n'",
+    "vividseats:TEN33": "fetch failed for https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---court-2-7-25-2028--sports-other-sports/production/6894467: http 401: b'{\"message\":\"Monthly API calls limit reached: 250000\"}\\n'",
+    "vividseats:TEN35": "fetch failed for https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---center-court-7-25-2028--sports-other-sports/production/6894472: http 401: b'{\"message\":\"Monthly API calls limit reached: 250000\"}\\n'",
+    "vividseats:TEN36": "fetch failed for https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---center-court-7-26-2028--sports-other-sports/production/6894474: http 401: b'{\"message\":\"Monthly API calls limit reached: 250000\"}\\n'",
     "vividseats:TEN37": "fetch failed for https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---center-court-7-26-2028--sports-other-sports/production/6894476: http 401: b'{\"message\":\"Monthly API calls limit reached: 250000\"}\\n'",
     "vividseats:TEN40": "fetch failed for https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---center-court-7-28-2028--sports-other-sports/production/6894482: http 401: b'{\"message\":\"Monthly API calls limit reached: 250000\"}\\n'",
     "stubhub:TEN31": "fetch failed for https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-25-2028/event/160846088/: http 401: b'{\"message\":\"Monthly API calls limit reached: 250000\"}\\n'",
-    "stubhub:TEN32": "fetch failed for https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-25-2028/event/160846821/: http 401: b'{\"message\":\"Monthly API calls limit reached: 250000\"}\\n'",
+    "stubhub:TEN32": "fetch failed for https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-25-2028/event/160846821/: <urlopen error [Errno 104] Connection reset by peer>",
     "stubhub:TEN33": "fetch failed for https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-25-2028/event/160846919/: http 401: b'{\"message\":\"Monthly API calls limit reached: 250000\"}\\n'",
     "stubhub:TEN35": "fetch failed for https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-25-2028/event/160846523/: http 401: b'{\"message\":\"Monthly API calls limit reached: 250000\"}\\n'",
     "stubhub:TEN36": "fetch failed for https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-26-2028/event/160846091/: http 401: b'{\"message\":\"Monthly API calls limit reached: 250000\"}\\n'",
     "stubhub:TEN37": "fetch failed for https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-26-2028/event/160846520/: http 401: b'{\"message\":\"Monthly API calls limit reached: 250000\"}\\n'",
     "stubhub:TEN40": "fetch failed for https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-28-2028/event/160846096/: http 401: b'{\"message\":\"Monthly API calls limit reached: 250000\"}\\n'"
   },
-  "qualifying_count": 35,
+  "qualifying_count": 0,
   "new_count": 0,
   "new": [],
   "notable_new_count": 0,
