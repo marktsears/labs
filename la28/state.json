@@ -127,7 +127,7 @@
       "category": "Category A",
       "row": "GA",
       "price_per_ticket": 8212,
-      "qty_text": "1–12 ticket",
+      "qty_text": "1–4 ticket",
       "two_plus_together": true,
       "url": "https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---center-court-7-25-2028--sports-other-sports/production/6894442",
       "cross_listed_on": []
@@ -266,7 +266,7 @@
     },
     "TEN37": {
       "runs_total": 280,
-      "runs_with_listings": 248
+      "runs_with_listings": 249
     },
     "TEN40": {
       "runs_total": 276,
