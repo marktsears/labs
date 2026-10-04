@@ -116,31 +116,31 @@
   },
   "session_activity": {
     "TEN35": {
-      "runs_total": 270,
+      "runs_total": 271,
       "runs_with_listings": 252
     },
     "TEN32": {
-      "runs_total": 268,
+      "runs_total": 269,
       "runs_with_listings": 250
     },
     "TEN31": {
-      "runs_total": 271,
+      "runs_total": 272,
       "runs_with_listings": 252
     },
     "TEN33": {
-      "runs_total": 271,
+      "runs_total": 272,
       "runs_with_listings": 250
     },
     "TEN37": {
-      "runs_total": 272,
+      "runs_total": 273,
       "runs_with_listings": 249
     },
     "TEN40": {
-      "runs_total": 267,
+      "runs_total": 268,
       "runs_with_listings": 248
     },
     "TEN36": {
-      "runs_total": 269,
+      "runs_total": 270,
       "runs_with_listings": 250
     }
   }
