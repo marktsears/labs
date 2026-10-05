@@ -1,6 +1,7 @@
 {
   "sessions_ok": {
     "vividseats": [
+      "TEN31",
       "TEN32",
       "TEN33",
       "TEN35",
@@ -11,7 +12,6 @@
     "stubhub": []
   },
   "errors": {
-    "vividseats:TEN31": "fetch failed for https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---center-court-7-25-2028--sports-other-sports/production/6894442: http 500: b'{\"error\": \"Error with your request, please try again (you will not be charged for this request).You should: 1) check that your URL is correctly encoded 2) try with block_resources=False Do not hesitat'",
     "stubhub:TEN31": "fetch failed for https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-25-2028/event/160846088/: http 500: b'{\"error\": \"Error with your request, please try again (you will not be charged for this request).You should: 1) check that your URL is correctly encoded 2) try with block_resources=False 3) try with pr'",
     "stubhub:TEN32": "fetch failed for https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-25-2028/event/160846821/: http 500: b'{\"error\": \"Error with your request, please try again (you will not be charged for this request).You should: 1) check that your URL is correctly encoded 2) try with block_resources=False 3) try with pr'",
     "stubhub:TEN33": "fetch failed for https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-25-2028/event/160846919/: http 500: b'{\"error\": \"Error with your request, please try again (you will not be charged for this request).You should: 1) check that your URL is correctly encoded 2) try with block_resources=False 3) try with pr'",
@@ -116,31 +116,31 @@
   },
   "session_activity": {
     "TEN35": {
-      "runs_total": 278,
+      "runs_total": 279,
       "runs_with_listings": 252
     },
     "TEN32": {
-      "runs_total": 275,
+      "runs_total": 276,
       "runs_with_listings": 250
     },
     "TEN31": {
-      "runs_total": 279,
+      "runs_total": 280,
       "runs_with_listings": 253
     },
     "TEN33": {
-      "runs_total": 282,
+      "runs_total": 283,
       "runs_with_listings": 250
     },
     "TEN37": {
-      "runs_total": 282,
+      "runs_total": 283,
       "runs_with_listings": 249
     },
     "TEN40": {
-      "runs_total": 278,
+      "runs_total": 279,
       "runs_with_listings": 248
     },
     "TEN36": {
-      "runs_total": 280,
+      "runs_total": 281,
       "runs_with_listings": 250
     }
   }
