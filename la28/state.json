@@ -97,6 +97,10 @@
       "best_price": 5284,
       "times_seen": 22
     },
+    "TEN40|B": {
+      "best_price": 3109,
+      "times_seen": 60
+    },
     "TEN32|A": {
       "best_price": 3968,
       "times_seen": 280
@@ -129,7 +133,7 @@
     },
     "TEN37": {
       "runs_total": 287,
-      "runs_with_listings": 250
+      "runs_with_listings": 249
     },
     "TEN40": {
       "runs_total": 284,
