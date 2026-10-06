@@ -1,1 +1,147 @@
-PLACEHOLDER
+{
+  "sessions_ok": {
+    "vividseats": [
+      "TEN33",
+      "TEN37"
+    ],
+    "stubhub": []
+  },
+  "errors": {
+    "vividseats:TEN31": "fetch failed for https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---center-court-7-25-2028--sports-other-sports/production/6894442: http 404: b'{\"error\":\"Request failed with status code 404\"}'",
+    "vividseats:TEN32": "fetch failed for https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---court-1-7-25-2028--sports-other-sports/production/6894461: http 500: b'{\"error\": \"Error with your request, please try again (you will not be charged for this request).You should: 1) check that your URL is correctly encoded 2) try with block_resources=False Do not hesitat'",
+    "vividseats:TEN35": "fetch failed for https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---center-court-7-25-2028--sports-other-sports/production/6894472: http 500: b'{\"error\": \"Error with your request, please try again (you will not be charged for this request).You should: 1) check that your URL is correctly encoded 2) try with block_resources=False Do not hesitat'",
+    "vividseats:TEN36": "fetch failed for https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---center-court-7-26-2028--sports-other-sports/production/6894474: http 500: b'{\"error\": \"Error with your request, please try again (you will not be charged for this request).You should: 1) check that your URL is correctly encoded 2) try with block_resources=False Do not hesitat'",
+    "vividseats:TEN40": "fetch failed for https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---center-court-7-28-2028--sports-other-sports/production/6894482: http 500: b'{\"error\": \"Error with your request, please try again (you will not be charged for this request).You should: 1) check that your URL is correctly encoded 2) try with block_resources=False Do not hesitat'",
+    "stubhub:TEN31": "fetch failed for https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-25-2028/event/160846088/: http 500: b'{\"error\": \"Error with your request, please try again (you will not be charged for this request).You should: 1) check that your URL is correctly encoded 2) try with block_resources=False 3) try with pr'",
+    "stubhub:TEN32": "fetch failed for https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-25-2028/event/160846821/: http 500: b'{\"error\": \"Error with your request, please try again (you will not be charged for this request).You should: 1) check that your URL is correctly encoded 2) try with block_resources=False 3) try with pr'",
+    "stubhub:TEN33": "fetch failed for https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-25-2028/event/160846919/: http 500: b'{\"error\": \"Error with your request, please try again (you will not be charged for this request).You should: 1) check that your URL is correctly encoded 2) try with block_resources=False 3) try with pr'",
+    "stubhub:TEN35": "fetch failed for https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-25-2028/event/160846523/: http 500: b'{\"error\": \"Error with your request, please try again (you will not be charged for this request).You should: 1) check that your URL is correctly encoded 2) try with block_resources=False 3) try with pr'",
+    "stubhub:TEN36": "fetch failed for https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-26-2028/event/160846091/: http 500: b'{\"error\": \"Error with your request, please try again (you will not be charged for this request).You should: 1) check that your URL is correctly encoded 2) try with block_resources=False 3) try with pr'",
+    "stubhub:TEN37": "fetch failed for https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-26-2028/event/160846520/: http 500: b'{\"error\": \"Error with your request, please try again (you will not be charged for this request).You should: 1) check that your URL is correctly encoded 2) try with block_resources=False 3) try with pr'",
+    "stubhub:TEN40": "fetch failed for https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-28-2028/event/160846096/: http 500: b'{\"error\": \"Error with your request, please try again (you will not be charged for this request).You should: 1) check that your URL is correctly encoded 2) try with block_resources=False 3) try with pr'"
+  },
+  "qualifying_count": 0,
+  "new_count": 0,
+  "new": [],
+  "notable_new_count": 0,
+  "notable_new": [],
+  "price_changes": [],
+  "listings": {},
+  "current_best": [],
+  "category_stats": {
+    "TEN31|B": {
+      "best_price": 3538,
+      "times_seen": 512
+    },
+    "TEN31|A": {
+      "best_price": 4599,
+      "times_seen": 511
+    },
+    "TEN32|C": {
+      "best_price": 1483,
+      "times_seen": 533
+    },
+    "TEN33|B": {
+      "best_price": 2128,
+      "times_seen": 1002
+    },
+    "TEN35|D": {
+      "best_price": 814,
+      "times_seen": 662
+    },
+    "TEN35|B": {
+      "best_price": 1467,
+      "times_seen": 984
+    },
+    "TEN35|A": {
+      "best_price": 1675,
+      "times_seen": 998
+    },
+    "TEN36|D": {
+      "best_price": 571,
+      "times_seen": 493
+    },
+    "TEN36|A": {
+      "best_price": 2471,
+      "times_seen": 770
+    },
+    "TEN36|B": {
+      "best_price": 4419,
+      "times_seen": 520
+    },
+    "TEN37|D": {
+      "best_price": 572,
+      "times_seen": 1111
+    },
+    "TEN37|B": {
+      "best_price": 1656,
+      "times_seen": 527
+    },
+    "TEN37|A": {
+      "best_price": 2208,
+      "times_seen": 516
+    },
+    "TEN40|D": {
+      "best_price": 3710,
+      "times_seen": 479
+    },
+    "TEN37|C": {
+      "best_price": 1607,
+      "times_seen": 51
+    },
+    "TEN40|C": {
+      "best_price": 2303,
+      "times_seen": 60
+    },
+    "TEN40|A": {
+      "best_price": 5284,
+      "times_seen": 22
+    },
+    "TEN40|B": {
+      "best_price": 3109,
+      "times_seen": 60
+    },
+    "TEN32|A": {
+      "best_price": 3968,
+      "times_seen": 280
+    },
+    "TEN36|EOGRY B": {
+      "best_price": 5794,
+      "times_seen": 227
+    },
+    "TEN35|C": {
+      "best_price": 3667,
+      "times_seen": 273
+    }
+  },
+  "session_activity": {
+    "TEN35": {
+      "runs_total": 284,
+      "runs_with_listings": 253
+    },
+    "TEN32": {
+      "runs_total": 283,
+      "runs_with_listings": 251
+    },
+    "TEN31": {
+      "runs_total": 281,
+      "runs_with_listings": 253
+    },
+    "TEN33": {
+      "runs_total": 287,
+      "runs_with_listings": 250
+    },
+    "TEN37": {
+      "runs_total": 288,
+      "runs_with_listings": 249
+    },
+    "TEN40": {
+      "runs_total": 285,
+      "runs_with_listings": 249
+    },
+    "TEN36": {
+      "runs_total": 282,
+      "runs_with_listings": 250
+    }
+  }
+}
