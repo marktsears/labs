@@ -298,7 +298,7 @@ def compute_current_best(current_list):
         key = (l["session"], normalize_category(l["category"]))
         if key not in best or l["price_per_ticket"] < best[key]["price_per_ticket"]:
             best[key] = l
-    return [best[k] for k in sorted(best)]
+    return [best[k] for k in sorted(best, key=lambda k: tuple(x or "" for x in k))]
 
 
 def key_of(l):
