@@ -20,9 +20,36 @@
     ]
   },
   "errors": {},
-  "qualifying_count": 24,
-  "new_count": 0,
-  "new": [],
+  "qualifying_count": 26,
+  "new_count": 2,
+  "new": [
+    {
+      "source": "vividseats",
+      "listing_id": "VB15488501294",
+      "session": "TEN40",
+      "section_id": "4",
+      "category": "Category D",
+      "row": "CATEG..",
+      "price_per_ticket": 4498,
+      "qty_text": "1–11 ticket",
+      "two_plus_together": true,
+      "url": "https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---center-court-7-28-2028--sports-other-sports/production/6894482",
+      "cross_listed_on": []
+    },
+    {
+      "source": "vividseats",
+      "listing_id": "VB16225639274",
+      "session": "TEN40",
+      "section_id": "4",
+      "category": "Category D",
+      "row": "TBD",
+      "price_per_ticket": 4648,
+      "qty_text": "1–10 ticket",
+      "two_plus_together": true,
+      "url": "https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---center-court-7-28-2028--sports-other-sports/production/6894482",
+      "cross_listed_on": []
+    }
+  ],
   "notable_new_count": 0,
   "notable_new": [],
   "price_changes": [
@@ -33,12 +60,12 @@
       "section_id": null,
       "category": null,
       "row": null,
-      "price_per_ticket": 2328,
+      "price_per_ticket": 2365,
       "qty_text": "2 tickets together",
       "two_plus_together": true,
       "url": "https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-25-2028/event/160846088/",
       "cross_listed_on": [],
-      "previous_price": 2402
+      "previous_price": 2328
     },
     {
       "source": "stubhub",
@@ -47,12 +74,12 @@
       "section_id": null,
       "category": null,
       "row": null,
-      "price_per_ticket": 3401,
+      "price_per_ticket": 3455,
       "qty_text": "2 tickets together",
       "two_plus_together": true,
       "url": "https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-25-2028/event/160846088/",
       "cross_listed_on": [],
-      "previous_price": 3510
+      "previous_price": 3401
     },
     {
       "source": "stubhub",
@@ -61,12 +88,12 @@
       "section_id": null,
       "category": null,
       "row": null,
-      "price_per_ticket": 5043,
+      "price_per_ticket": 5123,
       "qty_text": "2 tickets together",
       "two_plus_together": true,
       "url": "https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-25-2028/event/160846088/",
       "cross_listed_on": [],
-      "previous_price": 5204
+      "previous_price": 5043
     },
     {
       "source": "stubhub",
@@ -75,12 +102,12 @@
       "section_id": null,
       "category": null,
       "row": null,
-      "price_per_ticket": 1492,
+      "price_per_ticket": 1516,
       "qty_text": "2 tickets together",
       "two_plus_together": true,
       "url": "https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-25-2028/event/160846821/",
       "cross_listed_on": [],
-      "previous_price": 1540
+      "previous_price": 1492
     },
     {
       "source": "stubhub",
@@ -89,12 +116,12 @@
       "section_id": null,
       "category": null,
       "row": null,
-      "price_per_ticket": 4203,
+      "price_per_ticket": 4270,
       "qty_text": "2 tickets together",
       "two_plus_together": true,
       "url": "https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-25-2028/event/160846821/",
       "cross_listed_on": [],
-      "previous_price": 4337
+      "previous_price": 4203
     },
     {
       "source": "stubhub",
@@ -103,12 +130,12 @@
       "section_id": null,
       "category": null,
       "row": null,
-      "price_per_ticket": 2878,
+      "price_per_ticket": 2924,
       "qty_text": "2 tickets together",
       "two_plus_together": true,
       "url": "https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-25-2028/event/160846821/",
       "cross_listed_on": [],
-      "previous_price": 2970
+      "previous_price": 2878
     },
     {
       "source": "stubhub",
@@ -117,12 +144,12 @@
       "section_id": null,
       "category": null,
       "row": null,
-      "price_per_ticket": 1253,
+      "price_per_ticket": 1273,
       "qty_text": "2 tickets together",
       "two_plus_together": true,
       "url": "https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-25-2028/event/160846919/",
       "cross_listed_on": [],
-      "previous_price": 1293
+      "previous_price": 1253
     },
     {
       "source": "stubhub",
@@ -131,12 +158,12 @@
       "section_id": null,
       "category": null,
       "row": null,
-      "price_per_ticket": 1105,
+      "price_per_ticket": 1123,
       "qty_text": "2 tickets together",
       "two_plus_together": true,
       "url": "https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-25-2028/event/160846523/",
       "cross_listed_on": [],
-      "previous_price": 1141
+      "previous_price": 1105
     },
     {
       "source": "stubhub",
@@ -145,12 +172,12 @@
       "section_id": null,
       "category": null,
       "row": null,
-      "price_per_ticket": 1503,
+      "price_per_ticket": 1527,
       "qty_text": "2 tickets together",
       "two_plus_together": true,
       "url": "https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-25-2028/event/160846523/",
       "cross_listed_on": [],
-      "previous_price": 1551
+      "previous_price": 1503
     },
     {
       "source": "stubhub",
@@ -159,12 +186,12 @@
       "section_id": null,
       "category": null,
       "row": null,
-      "price_per_ticket": 1717,
+      "price_per_ticket": 1744,
       "qty_text": "2 tickets together",
       "two_plus_together": true,
       "url": "https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-25-2028/event/160846523/",
       "cross_listed_on": [],
-      "previous_price": 1771
+      "previous_price": 1717
     },
     {
       "source": "stubhub",
@@ -173,141 +200,41 @@
       "section_id": null,
       "category": null,
       "row": null,
-      "price_per_ticket": 1834,
+      "price_per_ticket": 1863,
       "qty_text": "2 tickets together",
       "two_plus_together": true,
       "url": "https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-25-2028/event/160846523/",
       "cross_listed_on": [],
-      "previous_price": 1892
-    },
-    {
-      "source": "stubhub",
-      "listing_id": "13775341636",
-      "session": "TEN36",
-      "section_id": null,
-      "category": null,
-      "row": null,
-      "price_per_ticket": 799,
-      "qty_text": "2 tickets together",
-      "two_plus_together": true,
-      "url": "https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-26-2028/event/160846091/",
-      "cross_listed_on": [],
-      "previous_price": 824
-    },
-    {
-      "source": "stubhub",
-      "listing_id": "14511327309",
-      "session": "TEN36",
-      "section_id": null,
-      "category": null,
-      "row": null,
-      "price_per_ticket": 2015,
-      "qty_text": "2 tickets together",
-      "two_plus_together": true,
-      "url": "https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-26-2028/event/160846091/",
-      "cross_listed_on": [],
-      "previous_price": 2080
-    },
-    {
-      "source": "stubhub",
-      "listing_id": "13906535047",
-      "session": "TEN36",
-      "section_id": null,
-      "category": null,
-      "row": null,
-      "price_per_ticket": 2489,
-      "qty_text": "2 tickets together",
-      "two_plus_together": true,
-      "url": "https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-26-2028/event/160846091/",
-      "cross_listed_on": [],
-      "previous_price": 2568
-    },
-    {
-      "source": "stubhub",
-      "listing_id": "13649859989",
-      "session": "TEN36",
-      "section_id": null,
-      "category": null,
-      "row": null,
-      "price_per_ticket": 4803,
-      "qty_text": "2 tickets together",
-      "two_plus_together": true,
-      "url": "https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-26-2028/event/160846091/",
-      "cross_listed_on": [],
-      "previous_price": 4956
-    },
-    {
-      "source": "stubhub",
-      "listing_id": "13642926365",
-      "session": "TEN36",
-      "section_id": null,
-      "category": null,
-      "row": null,
-      "price_per_ticket": 4903,
-      "qty_text": "2 tickets together",
-      "two_plus_together": true,
-      "url": "https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-26-2028/event/160846091/",
-      "cross_listed_on": [],
-      "previous_price": 5060
-    },
-    {
-      "source": "stubhub",
-      "listing_id": "14440482208",
-      "session": "TEN40",
-      "section_id": null,
-      "category": null,
-      "row": null,
-      "price_per_ticket": 2452,
-      "qty_text": "2 tickets together",
-      "two_plus_together": true,
-      "url": "https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-28-2028/event/160846096/",
-      "cross_listed_on": [],
-      "previous_price": 2295
-    },
-    {
-      "source": "stubhub",
-      "listing_id": "13621021660",
-      "session": "TEN40",
-      "section_id": null,
-      "category": null,
-      "row": null,
-      "price_per_ticket": 2740,
-      "qty_text": "2 tickets together",
-      "two_plus_together": true,
-      "url": "https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-28-2028/event/160846096/",
-      "cross_listed_on": [],
-      "previous_price": 2565
-    },
-    {
-      "source": "stubhub",
-      "listing_id": "13724778942",
-      "session": "TEN40",
-      "section_id": null,
-      "category": null,
-      "row": null,
-      "price_per_ticket": 3378,
-      "qty_text": "2 tickets together",
-      "two_plus_together": true,
-      "url": "https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-28-2028/event/160846096/",
-      "cross_listed_on": [],
-      "previous_price": 3162
-    },
-    {
-      "source": "stubhub",
-      "listing_id": "13784242839",
-      "session": "TEN40",
-      "section_id": null,
-      "category": null,
-      "row": null,
-      "price_per_ticket": 5459,
-      "qty_text": "2 tickets together",
-      "two_plus_together": true,
-      "url": "https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-28-2028/event/160846096/",
-      "cross_listed_on": [],
-      "previous_price": 5110
+      "previous_price": 1834
     }
   ],
   "listings": {
+    "vividseats|TEN40|VB15488501294": {
+      "source": "vividseats",
+      "listing_id": "VB15488501294",
+      "session": "TEN40",
+      "section_id": "4",
+      "category": "Category D",
+      "row": "CATEG..",
+      "price_per_ticket": 4498,
+      "qty_text": "1–11 ticket",
+      "two_plus_together": true,
+      "url": "https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---center-court-7-28-2028--sports-other-sports/production/6894482",
+      "cross_listed_on": []
+    },
+    "vividseats|TEN40|VB16225639274": {
+      "source": "vividseats",
+      "listing_id": "VB16225639274",
+      "session": "TEN40",
+      "section_id": "4",
+      "category": "Category D",
+      "row": "TBD",
+      "price_per_ticket": 4648,
+      "qty_text": "1–10 ticket",
+      "two_plus_together": true,
+      "url": "https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---center-court-7-28-2028--sports-other-sports/production/6894482",
+      "cross_listed_on": []
+    },
     "stubhub|TEN31|13725520124": {
       "source": "stubhub",
       "listing_id": "13725520124",
@@ -315,7 +242,7 @@
       "section_id": null,
       "category": null,
       "row": null,
-      "price_per_ticket": 2328,
+      "price_per_ticket": 2365,
       "qty_text": "2 tickets together",
       "two_plus_together": true,
       "url": "https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-25-2028/event/160846088/",
@@ -328,7 +255,7 @@
       "section_id": null,
       "category": null,
       "row": null,
-      "price_per_ticket": 3401,
+      "price_per_ticket": 3455,
       "qty_text": "2 tickets together",
       "two_plus_together": true,
       "url": "https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-25-2028/event/160846088/",
@@ -341,7 +268,7 @@
       "section_id": null,
       "category": null,
       "row": null,
-      "price_per_ticket": 5043,
+      "price_per_ticket": 5123,
       "qty_text": "2 tickets together",
       "two_plus_together": true,
       "url": "https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-25-2028/event/160846088/",
@@ -354,7 +281,7 @@
       "section_id": null,
       "category": null,
       "row": null,
-      "price_per_ticket": 1492,
+      "price_per_ticket": 1516,
       "qty_text": "2 tickets together",
       "two_plus_together": true,
       "url": "https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-25-2028/event/160846821/",
@@ -367,7 +294,7 @@
       "section_id": null,
       "category": null,
       "row": null,
-      "price_per_ticket": 4203,
+      "price_per_ticket": 4270,
       "qty_text": "2 tickets together",
       "two_plus_together": true,
       "url": "https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-25-2028/event/160846821/",
@@ -380,7 +307,7 @@
       "section_id": null,
       "category": null,
       "row": null,
-      "price_per_ticket": 2878,
+      "price_per_ticket": 2924,
       "qty_text": "2 tickets together",
       "two_plus_together": true,
       "url": "https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-25-2028/event/160846821/",
@@ -393,7 +320,7 @@
       "section_id": null,
       "category": null,
       "row": null,
-      "price_per_ticket": 1253,
+      "price_per_ticket": 1273,
       "qty_text": "2 tickets together",
       "two_plus_together": true,
       "url": "https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-25-2028/event/160846919/",
@@ -406,7 +333,7 @@
       "section_id": null,
       "category": null,
       "row": null,
-      "price_per_ticket": 1105,
+      "price_per_ticket": 1123,
       "qty_text": "2 tickets together",
       "two_plus_together": true,
       "url": "https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-25-2028/event/160846523/",
@@ -419,7 +346,7 @@
       "section_id": null,
       "category": null,
       "row": null,
-      "price_per_ticket": 1503,
+      "price_per_ticket": 1527,
       "qty_text": "2 tickets together",
       "two_plus_together": true,
       "url": "https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-25-2028/event/160846523/",
@@ -432,7 +359,7 @@
       "section_id": null,
       "category": null,
       "row": null,
-      "price_per_ticket": 1717,
+      "price_per_ticket": 1744,
       "qty_text": "2 tickets together",
       "two_plus_together": true,
       "url": "https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-25-2028/event/160846523/",
@@ -445,7 +372,7 @@
       "section_id": null,
       "category": null,
       "row": null,
-      "price_per_ticket": 1834,
+      "price_per_ticket": 1863,
       "qty_text": "2 tickets together",
       "two_plus_together": true,
       "url": "https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-25-2028/event/160846523/",
@@ -629,7 +556,7 @@
       "section_id": null,
       "category": null,
       "row": null,
-      "price_per_ticket": 2328,
+      "price_per_ticket": 2365,
       "qty_text": "2 tickets together",
       "two_plus_together": true,
       "url": "https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-25-2028/event/160846088/",
@@ -642,7 +569,7 @@
       "section_id": null,
       "category": null,
       "row": null,
-      "price_per_ticket": 1492,
+      "price_per_ticket": 1516,
       "qty_text": "2 tickets together",
       "two_plus_together": true,
       "url": "https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-25-2028/event/160846821/",
@@ -655,7 +582,7 @@
       "section_id": null,
       "category": null,
       "row": null,
-      "price_per_ticket": 1253,
+      "price_per_ticket": 1273,
       "qty_text": "2 tickets together",
       "two_plus_together": true,
       "url": "https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-25-2028/event/160846919/",
@@ -668,7 +595,7 @@
       "section_id": null,
       "category": null,
       "row": null,
-      "price_per_ticket": 1105,
+      "price_per_ticket": 1123,
       "qty_text": "2 tickets together",
       "two_plus_together": true,
       "url": "https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-25-2028/event/160846523/",
@@ -711,6 +638,19 @@
       "qty_text": "2 tickets together",
       "two_plus_together": true,
       "url": "https://www.stubhub.com/los-angeles-2028-summer-games-carson-tickets-7-28-2028/event/160846096/",
+      "cross_listed_on": []
+    },
+    {
+      "source": "vividseats",
+      "listing_id": "VB15488501294",
+      "session": "TEN40",
+      "section_id": "4",
+      "category": "Category D",
+      "row": "CATEG..",
+      "price_per_ticket": 4498,
+      "qty_text": "1–11 ticket",
+      "two_plus_together": true,
+      "url": "https://www.vividseats.com/summer-games---tennis-tickets-dignity-health-tennis-center---center-court-7-28-2028--sports-other-sports/production/6894482",
       "cross_listed_on": []
     }
   ],
@@ -769,7 +709,7 @@
     },
     "TEN40|D": {
       "best_price": 3710,
-      "times_seen": 501
+      "times_seen": 503
     },
     "TEN37|C": {
       "best_price": 1435,
@@ -801,31 +741,31 @@
     },
     "TEN31|None": {
       "best_price": 2179,
-      "times_seen": 276
+      "times_seen": 279
     },
     "TEN35|None": {
       "best_price": 1035,
-      "times_seen": 364
+      "times_seen": 368
     },
     "TEN36|None": {
       "best_price": 735,
-      "times_seen": 421
+      "times_seen": 426
     },
     "TEN37|None": {
       "best_price": 571,
-      "times_seen": 348
+      "times_seen": 352
     },
     "TEN40|None": {
       "best_price": 2120,
-      "times_seen": 348
+      "times_seen": 352
     },
     "TEN32|None": {
       "best_price": 1373,
-      "times_seen": 231
+      "times_seen": 234
     },
     "TEN33|None": {
       "best_price": 1163,
-      "times_seen": 89
+      "times_seen": 90
     },
     "TEN31|D": {
       "best_price": 1288,
@@ -850,32 +790,32 @@
   },
   "session_activity": {
     "TEN35": {
-      "runs_total": 408,
-      "runs_with_listings": 346
+      "runs_total": 409,
+      "runs_with_listings": 347
     },
     "TEN31": {
-      "runs_total": 400,
-      "runs_with_listings": 341
-    },
-    "TEN32": {
       "runs_total": 401,
       "runs_with_listings": 342
     },
+    "TEN32": {
+      "runs_total": 402,
+      "runs_with_listings": 343
+    },
     "TEN33": {
-      "runs_total": 411,
-      "runs_with_listings": 340
+      "runs_total": 412,
+      "runs_with_listings": 341
     },
     "TEN37": {
-      "runs_total": 409,
-      "runs_with_listings": 341
+      "runs_total": 410,
+      "runs_with_listings": 342
     },
     "TEN36": {
-      "runs_total": 407,
-      "runs_with_listings": 341
+      "runs_total": 408,
+      "runs_with_listings": 342
     },
     "TEN40": {
-      "runs_total": 411,
-      "runs_with_listings": 337
+      "runs_total": 412,
+      "runs_with_listings": 338
     }
   }
 }
