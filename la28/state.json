@@ -1,1 +1,56 @@
-PLACEHOLDER
+{
+  "sessions_ok": {
+    "vividseats": ["TEN31","TEN32","TEN33","TEN35","TEN36","TEN37","TEN40"],
+    "stubhub": ["TEN31","TEN32","TEN33","TEN35","TEN36","TEN37","TEN40"]
+  },
+  "errors": {},
+  "qualifying_count": 24,
+  "new_count": 0,
+  "new": [],
+  "notable_new_count": 0,
+  "notable_new": [],
+  "price_changes": [],
+  "listings": {},
+  "current_best": [],
+  "category_stats": {
+    "TEN31|None": {"best_price": 2123, "times_seen": 102},
+    "TEN32|None": {"best_price": 1361, "times_seen": 102},
+    "TEN33|None": {"best_price": 1173, "times_seen": 36},
+    "TEN35|None": {"best_price": 1052, "times_seen": 152},
+    "TEN36|None": {"best_price": 729, "times_seen": 160},
+    "TEN37|None": {"best_price": 576, "times_seen": 136},
+    "TEN40|None": {"best_price": 2302, "times_seen": 160},
+    "TEN32|C": {"best_price": 1171, "times_seen": 72},
+    "TEN32|B": {"best_price": 1275, "times_seen": 24},
+    "TEN32|A": {"best_price": 2486, "times_seen": 36},
+    "TEN37|D": {"best_price": 584, "times_seen": 123},
+    "TEN37|C": {"best_price": 1435, "times_seen": 9},
+    "TEN37|B": {"best_price": 1797, "times_seen": 24},
+    "TEN37|A": {"best_price": 1825, "times_seen": 15},
+    "TEN33|B": {"best_price": 1171, "times_seen": 50},
+    "TEN33|A": {"best_price": 1320, "times_seen": 20},
+    "TEN36|D": {"best_price": 520, "times_seen": 80},
+    "TEN36|B": {"best_price": 1108, "times_seen": 38},
+    "TEN36|C": {"best_price": 1613, "times_seen": 17},
+    "TEN36|A": {"best_price": 2326, "times_seen": 26},
+    "TEN40|D": {"best_price": 4498, "times_seen": 22},
+    "TEN35|D": {"best_price": 825, "times_seen": 58},
+    "TEN35|B": {"best_price": 1659, "times_seen": 60},
+    "TEN35|A": {"best_price": 1797, "times_seen": 82},
+    "TEN35|C": {"best_price": 3742, "times_seen": 12},
+    "TEN31|D": {"best_price": 1438, "times_seen": 63},
+    "TEN31|B": {"best_price": 1660, "times_seen": 33},
+    "TEN31|A": {"best_price": 2488, "times_seen": 44},
+    "TEN31|C": {"best_price": 3598, "times_seen": 11},
+    "TEN36|EOGRY B": {"best_price": 5809, "times_seen": 1}
+  },
+  "session_activity": {
+    "TEN36": {"runs_total": 48, "runs_with_listings": 35},
+    "TEN37": {"runs_total": 48, "runs_with_listings": 38},
+    "TEN32": {"runs_total": 48, "runs_with_listings": 36},
+    "TEN33": {"runs_total": 48, "runs_with_listings": 39},
+    "TEN35": {"runs_total": 48, "runs_with_listings": 41},
+    "TEN31": {"runs_total": 48, "runs_with_listings": 38},
+    "TEN40": {"runs_total": 48, "runs_with_listings": 42}
+  }
+}
